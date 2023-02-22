@@ -237,7 +237,7 @@
     },
     "lsp-bridge": {
         "cargoLocks": null,
-        "date": "2023-02-18",
+        "date": "2023-02-19",
         "extract": null,
         "name": "lsp-bridge",
         "passthru": null,
@@ -247,12 +247,12 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "d448a7bd929d7b170ddf362c1ca353286a136211",
-            "sha256": "sha256-LLJG22+np/TGg7IAk5ti87qpP1d/UoxivzmIWYK85Rs=",
+            "rev": "0b11c634897f1933b3024deddfe8a2d27ae83724",
+            "sha256": "sha256-tG8mY/nPNnotmVMm5IcEdr+HTHznuZfFi2oIvxbqhzo=",
             "type": "git",
             "url": "https://github.com/manateelazycat/lsp-bridge.git"
         },
-        "version": "d448a7bd929d7b170ddf362c1ca353286a136211"
+        "version": "0b11c634897f1933b3024deddfe8a2d27ae83724"
     },
     "magit-gitflow": {
         "cargoLocks": null,

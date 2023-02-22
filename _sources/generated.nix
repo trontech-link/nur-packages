@@ -142,16 +142,16 @@
   };
   lsp-bridge = {
     pname = "lsp-bridge";
-    version = "d448a7bd929d7b170ddf362c1ca353286a136211";
+    version = "0b11c634897f1933b3024deddfe8a2d27ae83724";
     src = fetchgit {
       url = "https://github.com/manateelazycat/lsp-bridge.git";
-      rev = "d448a7bd929d7b170ddf362c1ca353286a136211";
+      rev = "0b11c634897f1933b3024deddfe8a2d27ae83724";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-LLJG22+np/TGg7IAk5ti87qpP1d/UoxivzmIWYK85Rs=";
+      sha256 = "sha256-tG8mY/nPNnotmVMm5IcEdr+HTHznuZfFi2oIvxbqhzo=";
     };
-    date = "2023-02-18";
+    date = "2023-02-19";
   };
   magit-gitflow = {
     pname = "magit-gitflow";
