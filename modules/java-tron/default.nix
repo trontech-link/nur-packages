@@ -347,7 +347,7 @@ let
     # trx.expiration.timeInMilliseconds = 60000
 
     vm = {
-      supportConstant = false
+      supportConstant = true
       minTimeRatio = 0.0
       maxTimeRatio = 5.0
       saveInternalTx = false
