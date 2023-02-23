@@ -1011,7 +1011,7 @@ in {
               else
                 ""
             } ${
-              if (cfg.enableSupportConstant == !null) then
+              if (cfg.enableSupportConstant != null) then
                 "--support-constant"
               else
                 ""
@@ -1047,7 +1047,7 @@ in {
               else
                 ""
             } ${
-              if (cfg.enableSupportConstant == !null) then
+              if (cfg.enableSupportConstant != null) then
                 "--support-constant"
               else
                 ""
