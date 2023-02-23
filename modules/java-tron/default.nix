@@ -892,6 +892,12 @@ in {
         description = "Enables witness service";
       };
 
+      enableSupportConstant = mkOption {
+        type = types.bool;
+        default = false;
+        description = "Enables support constant";
+      };
+
       enableSolidityNode = mkOption {
         type = types.bool;
         default = false;
@@ -1004,6 +1010,11 @@ in {
                 "--witness -p ${cfg.privateKey}"
               else
                 ""
+            } ${
+              if (cfg.enableSupportConstant == !null) then
+                "--support-constant"
+              else
+                ""
             }
           '';
         };
@@ -1033,6 +1044,11 @@ in {
             } ${
               if (cfg.enableWitness == null) then
                 "--witness -p ${cfg.privateKey}"
+              else
+                ""
+            } ${
+              if (cfg.enableSupportConstant == !null) then
+                "--support-constant"
               else
                 ""
             }
